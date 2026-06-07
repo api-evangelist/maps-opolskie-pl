@@ -1,0 +1,54 @@
+aid: maps-opolskie-pl
+name: Opolskie Open Data
+description: >-
+  Opolskie Open Data is a regional government open-data portal for Poland running DKAN.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/maps-opolskie-pl/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - DKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Regional Government
+  - Poland
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: maps-opolskie-pl:catalog
+    name: Opolskie Open Data DKAN API
+    description: >-
+      DKAN API for Opolskie Open Data.
+    humanURL: https://maps.opolskie.pl
+    baseURL: https://maps.opolskie.pl/api/1
+    tags:
+      - DKAN
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://dkan.readthedocs.io/en/latest/
+      - type: Website
+        url: https://maps.opolskie.pl
+      - type: x-api-endpoint
+        url: https://maps.opolskie.pl/api/dataset.json
+common:
+  - type: Website
+    url: https://maps.opolskie.pl
+  - type: Documentation
+    url: https://dkan.readthedocs.io/en/latest/
+  - type: Plans
+    url: plans/maps-opolskie-pl-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/maps-opolskie-pl-rate-limits.yml
+  - type: FinOps
+    url: finops/maps-opolskie-pl-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
