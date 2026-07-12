@@ -37,6 +37,10 @@ apis:
       - type: x-api-endpoint
         url: https://maps.opolskie.pl/api/dataset.json
 common:
+  - type: VulnerabilityDisclosure
+    url: security/maps-opolskie-pl-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/maps-opolskie-pl-domain-security.yml
   - type: Website
     url: https://maps.opolskie.pl
   - type: Documentation
