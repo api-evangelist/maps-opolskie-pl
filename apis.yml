@@ -27,6 +27,9 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/maps-opolskie-pl.png
 url: https://raw.githubusercontent.com/api-evangelist/maps-opolskie-pl/refs/heads/main/apis.yml
+x-docs-platform: sphinx
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
 tags:
   - Open Data
   - DKAN
